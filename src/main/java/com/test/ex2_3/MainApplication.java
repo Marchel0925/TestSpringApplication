@@ -1,4 +1,4 @@
-package com.test.ex2;
+package com.test.ex2_3;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class MainApplication implements CommandLineRunner {
 
     private final NamePrintingComponent namePrintingComponent;
+
     @Autowired
     private PhoneNumberPrintingComponent phoneNumberPrintingComponent;
 

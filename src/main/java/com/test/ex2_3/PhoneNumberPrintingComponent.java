@@ -1,4 +1,4 @@
-package com.test.ex2;
+package com.test.ex2_3;
 
 import org.springframework.stereotype.Component;
 
